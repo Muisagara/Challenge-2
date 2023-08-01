@@ -1,0 +1,20 @@
+header h1 {
+    margin: 15px;
+    padding: 15px;
+    border-block: 20px;
+    border: beige;
+    border-style: outset;
+}
+nav {
+    display: block;
+    border: solid;
+    text-align: end;
+    border-color: beige;
+}
+
+.hero-banner {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url();
+}
