@@ -17,8 +17,10 @@ header  {
     border:outset var(--light);
     background-color: var(--secondary) 
 }
-h1 , h2 , h3  {
+h1 {
     text-decoration: underline;
+    font-size: 50px;
+
 }
 nav {
     display: block;
@@ -26,21 +28,21 @@ nav {
     text-align: end;
     border:outset var(--light);
     background-color: var(--secondary);
-    font-size: 20px 
+    font-size: 30px; 
+    
 }
 
 body{
    
-    color: var(--text-color);
+    
     background-color: var(--light);
     line-height: 1.5;
     border: outset var(--seconday);
     font-family: 'Times New Roman', Times, serif;
 }
 .hero-banner {
-    font-size: 50px;
+    font-size: 88px;
     font-weight: bold;
-    text-align: center;
     background-image: url(Kaian-3.jpg);
     background-size: cover;
     background-position: center;
@@ -54,16 +56,38 @@ body{
     text-align: right;
 }
 
-.content img {
-    display: inline;
-    margin: 20px auto ;
-    max-width: 150px;
-    
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
 }
+
+p {
+    font-size: 27px;
+    text-align: center;
+}
+
+.baby-jesus {
+    font-size: 2vw;
+}
+.content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 27%;
+    align-self: center;
+    border-radius: 10px;
+    transform: rotate(3deg);
+    box-shadow: 10px 10px;
+}
+
+
 .wrap {
     display: flex;
     border:outset var(--light);
-    background-color: var(--secondary) 
+    background-color: var(--secondary);
+    flex-direction: column;
+    margin: 10px;
+    border: solid;
 }
 
 
@@ -71,23 +95,53 @@ body{
 .information-1, .information-2, .information-3  {
     text-decoration: underline;
     font-size: xx-large;
-    margin: 12px;
+    margin: 10px;
     padding: 30px;
+    display: block;
+    align-self: center;
 }
 /* The whole Box kaian */
 .pictures {
     display: flex;
-    border:outset var(--light);
-    background-color: var(--secondary) 
+    background-color: var(--secondary);
+    flex-direction: column;
+    justify-content: flex-start;
 }
     /* this is the pictures in the box */
-.pictures img {
+.img {
     display: inline;
     margin: 20px auto;
     max-width: 10%;
     padding: 3px;
     border: solid;
 }
+.img:hover {
+    transform: scale(120%);
+}
+
 .pictures a {
     display: contents;
+}
+
+.content-2{
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    background-color: var(--secondary);
+    margin: 10px;
+    
+}
+
+
+/* the Footer with contacts */
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    background-color: var(--secondary);
+    margin: 10px;
 }
