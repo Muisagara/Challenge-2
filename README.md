@@ -15,8 +15,7 @@ Created a website the displays content about me and projects that i have worked 
 <li> If needed to be contacted all of my information is easily located</li>  </ul>
 
 ## Deployed Site
-Github https://github.com/Muisagara/Challenge-2
-Kaian's Mui Porfolio https://muisagara.github.io/Challenge-2/
+[Kaian's Mui Porfolio](https://muisagara.github.io/Challenge-2/)
 
 ## Screenshots
 ![Image-of-the-website](<assets/css/Screenshot 2023-08-03 180625.png>)
