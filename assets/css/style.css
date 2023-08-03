@@ -1,20 +1,93 @@
-header h1 {
+:root {
+    --primary: beige;
+    --secondary: white;
+    --text-color: brown;
+    --light: tan;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header  {
     margin: 15px;
     padding: 15px;
-    border-block: 20px;
-    border: beige;
-    border-style: outset;
+    border:outset var(--light);
+    background-color: var(--secondary) 
+}
+h1 , h2 , h3  {
+    text-decoration: underline;
 }
 nav {
     display: block;
     border: solid;
     text-align: end;
-    border-color: beige;
+    border:outset var(--light);
+    background-color: var(--secondary);
+    font-size: 20px 
 }
 
+body{
+   
+    color: var(--text-color);
+    background-color: var(--light);
+    line-height: 1.5;
+    border: outset var(--seconday);
+    font-family: 'Times New Roman', Times, serif;
+}
 .hero-banner {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    background-image: url();
+    background-image: url(Kaian-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.content img {
+    display: inline;
+    margin: 20px auto ;
+    max-width: 150px;
+    
+}
+.wrap {
+    display: flex;
+    border:outset var(--light);
+    background-color: var(--secondary) 
+}
+
+
+/* text on the side of projects */
+.information-1, .information-2, .information-3  {
+    text-decoration: underline;
+    font-size: xx-large;
+    margin: 12px;
+    padding: 30px;
+}
+/* The whole Box kaian */
+.pictures {
+    display: flex;
+    border:outset var(--light);
+    background-color: var(--secondary) 
+}
+    /* this is the pictures in the box */
+.pictures img {
+    display: inline;
+    margin: 20px auto;
+    max-width: 10%;
+    padding: 3px;
+    border: solid;
+}
+.pictures a {
+    display: contents;
 }
