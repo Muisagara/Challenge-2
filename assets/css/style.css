@@ -41,7 +41,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .hero-banner {
-    font-size: 88px;
+    font-size: 14vh;
     font-weight: bold;
     background-image: url(Kaian-3.jpg);
     background-size: cover;
@@ -111,7 +111,7 @@ p {
 .img {
     display: inline;
     margin: 20px auto;
-    max-width: 10%;
+    max-width: 20%;
     padding: 3px;
     border: solid;
 }
@@ -144,4 +144,33 @@ footer {
     border: solid;
     background-color: var(--secondary);
     margin: 10px;
+}
+/* changes when the viewport changes */
+@media screen and (max-width: 480px) {
+    .img {
+        display: inline;
+        margin: 20px auto;
+        max-width: 40%;
+        min-width: 10%;
+        padding: 3px;
+        border: solid;
+    }
+    .hero-banner {
+        font-size: 88px;
+    }
+
+    nav{
+        font-size: 20px;
+         position: fixed;
+         top: 0;
+  }
+}
+  @media screen and (max-width: 280px) {
+    nav{
+        font-size: 15px;
+         position: fixed;
+         top: 0;
+  }
+      
+
 }
